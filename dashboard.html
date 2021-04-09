@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <title>Admin</title>
+        <!-- Fine Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        >
+        <!-- CSS  -->
+        <link rel="stylesheet" href="dashboard.css">
+    </head>
+    <body>
+        <input type="checkbox" id="nav-toggle">
+        <div class="sidebar">
+            <div class="sidebar-brand">
+                <h2>
+                    <span class="fa fa-hospital"></span><span>ARMIET</span>
+                </h2>
+            </div>
+            <div class="sidebar-menu">
+                <ul>
+                    <li>
+                        <a href="" class="active">
+                            <span class="fa fa-chart-line"></span>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-home"></span>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="far fa-exclamation-triangle"></span>
+                            <span>Covid Info</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="far fa-hand-point-right"></span>
+                            <span>Multispeciality</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="far fa-clipboard"></span>
+                            <span>Appointments</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="far fa-procedures"></span>
+                            <span>Patient Info</span>
+                        </a>
+                    </li>
+                    <div class="main-content"></div>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <header>
+                <h2>
+                    <label for="nav-toggle">
+                        <span class="far fa-bars"></span>
+                    </label>
+                    Dashboard
+                </h2>
+                <div class="search-wrapper">
+                    <span class="far fa-search"></span>
+                    <input type="search" placeholder="Search Here">
+                </div>
+                <div class="user-wrapper">
+                    <img
+                        src="/images/doctor.png"
+                        alt=""
+                        width="50px"
+                        height="50px"
+                    >
+                    <div>
+                        <h4>Dr.ARMIET</h4>
+                        <small>Super Admin</small>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="cards">
+                    <div class="card-single">
+                        <div>
+                            <h1>54</h1>
+                            <span>Patient</span>
+                        </div>
+                        <div>
+                            <span class="far fa-user"></span>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>79</h1>
+                            <span>Recovery</span>
+                        </div>
+                        <div>
+                            <span class="far fa-clipboard"></span>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>124</h1>
+                            <span>Appointment</span>
+                        </div>
+                        <div>
+                            <span class="far fa-file"></span>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>$6k</h1>
+                            <span>Income</span>
+                        </div>
+                        <div>
+                            <span class="far fa-usd-circle"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-grid">
+                    <div class="projects">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Recent Diagnosis</h3>
+                                <button>See all
+                                    <span class="far fa-arrow-right"></span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table style="width: 100%;">
+                                        <thead>
+                                            <tr>
+                                                <td>Disease Name</td>
+                                                <td>Department</td>
+                                                <td>Status</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Stroke</td>
+                                                <td>Cardiology</td>
+                                                <td>
+                                                    <span class="status purple"></span>in progress
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Cancer</td>
+                                                <td>Full Body</td>
+                                                <td>
+                                                    <span class="status pink"></span>in progress
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tuberculosis</td>
+                                                <td>Throat</td>
+                                                <td>
+                                                    <span class="status orange"></span>in progress
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Diarrhea</td>
+                                                <td>Digestion</td>
+                                                <td>
+                                                    <span class="status purple"></span>pending
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Polio</td>
+                                                <td>Limbs</td>
+                                                <td>
+                                                    <span class="status pink"></span>pending
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Asthma</td>
+                                                <td>Respiratory</td>
+                                                <td>
+                                                    <span class="status orange"></span>pending
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Autism</td>
+                                                <td>Nervous System</td>
+                                                <td>
+                                                    <span class="status purple"></span>pending
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Measles</td>
+                                                <td>Dermatology</td>
+                                                <td>
+                                                    <span class="status pink"></span>pending
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Rabies</td>
+                                                <td> Nervous System</td>
+                                                <td>
+                                                    <span class="status orange"></span>pending
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customers">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>New Patients</h3>
+                                <button>See all
+                                    <span class="far fa-arrow-right"></span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="customer">
+                                    <div class="info">
+                                        <img src="/images/patientlogo.png" style="width: 40px; height: 40px;" alt="">
+                                        <div>
+                                            <h4>ARMIET patient 1</h4>
+                                            <small>Diagnostician</small>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="far fa-user"></span>
+                                        <span class="far fa-comment"></span>
+                                        <span class="far fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="customer">
+                                    <div class="info">
+                                        <img src="/images/patientlogo.png" style="width: 40px; height: 40px;" alt="">
+                                        <div>
+                                            <h4>ARMIET patient 2</h4>
+                                            <small>Diagnostician</small>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="far fa-user"></span>
+                                        <span class="far fa-comment"></span>
+                                        <span class="far fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="customer">
+                                    <div class="info">
+                                        <img src="/images/patientlogo.png" style="width: 40px; height: 40px;" alt="">
+                                        <div>
+                                            <h4>ARMIET patient 3</h4>
+                                            <small>Diagnostician</small>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="far fa-user"></span>
+                                        <span class="far fa-comment"></span>
+                                        <span class="far fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="customer">
+                                    <div class="info">
+                                        <img src="/images/patientlogo.png" style="width: 40px; height: 40px;" alt="">
+                                        <div>
+                                            <h4>ARMIET patient 4</h4>
+                                            <small>Diagnostician</small>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="far fa-user"></span>
+                                        <span class="far fa-comment"></span>
+                                        <span class="far fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="customer">
+                                    <div class="info">
+                                        <img src="/images/patientlogo.png" style="width: 40px; height: 40px;" alt="">
+                                        <div>
+                                            <h4>ARMIET patient 5</h4>
+                                            <small>Diagnostician</small>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="far fa-user"></span>
+                                        <span class="far fa-comment"></span>
+                                        <span class="far fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="customer">
+                                    <div class="info">
+                                        <img src="/images/patientlogo.png" style="width: 40px; height: 40px;" alt="">
+                                        <div>
+                                            <h4>ARMIET patient 6</h4>
+                                            <small>Diagnostician</small>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="far fa-user"></span>
+                                        <span class="far fa-comment"></span>
+                                        <span class="far fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="customer">
+                                    <div class="info">
+                                        <img src="/images/patientlogo.png" style="width: 40px; height: 40px;" alt="">
+                                        <div>
+                                            <h4>ARMIET patient 7</h4>
+                                            <small>Diagnostician</small>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="far fa-user"></span>
+                                        <span class="far fa-comment"></span>
+                                        <span class="far fa-phone"></span>
+                                    </div>
+                                </div>
+                                <div class="customer">
+                                    <div class="info">
+                                        <img src="/images/patientlogo.png" style="width: 40px; height: 40px;" alt="">
+                                        <div>
+                                            <h4>ARMIET patient 8</h4>
+                                            <small>Diagnostician</small>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="far fa-user"></span>
+                                        <span class="far fa-comment"></span>
+                                        <span class="far fa-phone"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
